@@ -54,13 +54,13 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'template.urls'
+ROOT_URLCONF = 'panel_ayuda.urls'
 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'template',
+        'NAME': 'panel_ayuda',
         'USER': os.environ['DATABASE_USER'],
         'PASSWORD': os.environ['DATABASE_PASSWORD'],
         'HOST': 'localhost',
@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'template.wsgi.application'
+WSGI_APPLICATION = 'panel_ayuda.wsgi.application'
 
 
 # Database
