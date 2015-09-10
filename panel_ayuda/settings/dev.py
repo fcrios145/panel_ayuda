@@ -162,5 +162,5 @@ PIPELINE_COMPILERS = (
     'pipeline.compilers.stylus.StylusCompiler',
 )
 PIPELINE_COFFEE_SCRIPT_BINARY = '/usr/bin/coffee'
-PIPELINE_SASS_BINARY = '/opt/vagrant_ruby/bin/sass'
+PIPELINE_SASS_BINARY = '/usr/local/rvm/gems/ruby-2.2.1/bin/sass'
 PIPELINE_STYLUS_BINARY = '/usr/bin/stylus'
