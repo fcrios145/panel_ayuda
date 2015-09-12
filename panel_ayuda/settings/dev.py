@@ -108,7 +108,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/webapps/glucosetracker/static/'
+STATIC_ROOT = '/webapps/panel_ayudal/static/'
 
 
 # Additional locations of static files
